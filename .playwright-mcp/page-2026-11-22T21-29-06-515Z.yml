@@ -1,0 +1,72 @@
+- main [ref=e2]:
+  - generic [ref=e554]:
+    - strong [ref=e555]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e556]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e557]:
+      - link "Inicio" [ref=e558] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e559] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e560] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e561] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e562]:
+    - generic [ref=e563]:
+      - link "Regresar al salón" [ref=e564] [cursor=pointer]:
+        - /url: "#pos"
+        - text: ←
+        - generic [ref=e565]: Salón
+      - link "Ir al inicio de Web Total POS" [ref=e566] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e568]: WebTotal POS
+      - generic [ref=e569]:
+        - strong [ref=e570]: Salón principal · Mesa 06
+        - generic [ref=e571]: Turno actual · 14:25
+      - button "Usuario Ana López" [ref=e572] [cursor=pointer]: AL
+    - main "Mesa 06" [ref=e573]:
+      - generic [ref=e574]: POS / Mesa y Comanda / Mesa 06
+      - generic [ref=e575]:
+        - generic [ref=e576]:
+          - paragraph [ref=e577]: MESA Y COMANDA
+          - heading "Mesa 06" [level=1] [ref=e578]
+          - paragraph [ref=e579]: CMD-DEMO-006 · 4 personas · Ana López
+        - generic [ref=e580]: Vista DEMO
+      - note [ref=e581]:
+        - generic [aria-hidden] [ref=e582]: ◉
+        - generic [ref=e583]: Apertura DEMO · la mesa conserva su estado Libre en el salón
+      - generic [ref=e584]:
+        - region "Resumen de comanda" [ref=e585]:
+          - generic [ref=e586]:
+            - generic [ref=e587]:
+              - paragraph [ref=e588]: COMANDA DEMO
+              - heading "CMD-DEMO-006" [level=2] [ref=e589]
+            - generic [ref=e590]: Apertura ilustrativa
+          - paragraph [ref=e591]: "4 personas · Responsable: Ana López"
+          - generic [ref=e592]:
+            - generic [ref=e593]:
+              - generic [ref=e594]:
+                - generic [ref=e595]: 1 × Hamburguesa clásica
+                - generic [ref=e596]: Apertura ilustrativa · papas aparte
+              - strong [ref=e597]: $190.00
+            - generic [ref=e598]:
+              - generic [ref=e599]:
+                - generic [ref=e600]: 2 × Limonada
+                - generic [ref=e601]: Sin hielo
+              - strong [ref=e602]: $90.00
+          - generic [ref=e603]:
+            - generic [ref=e604]: Total ficticio
+            - strong [ref=e605]: $280.00
+        - complementary [ref=e606]:
+          - generic [ref=e607]:
+            - strong [ref=e608]: Nota de continuidad
+            - paragraph [ref=e609]: Cliente solicita atención en terraza.
+          - generic [ref=e610]:
+            - strong [ref=e611]: Sin alertas activas · revisar nota antes de enviar
+            - paragraph [ref=e612]: La confirmación es ilustrativa y no envía información a cocina.
+          - generic [ref=e613]:
+            - link "Gestionar cuenta" [ref=e614] [cursor=pointer]:
+              - /url: "#pos-account-06"
+            - button "Confirmar y enviar a cocina" [ref=e615] [cursor=pointer]
+            - generic [ref=e616]: Respuesta DEMO · sin persistencia
+    - status

@@ -1,0 +1,146 @@
+- main [ref=e2]:
+  - generic [ref=e767]:
+    - strong [ref=e768]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e769]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e770]:
+      - link "Inicio" [ref=e771] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e772] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e773] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e774] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e775]:
+    - generic [ref=e776]:
+      - link "Ir al inicio de Web Total POS" [ref=e777] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e779]: WebTotal POS
+      - generic [ref=e780]:
+        - heading "COMANDAS · COCINA CENTRAL" [level=1] [ref=e781]
+        - paragraph [ref=e782]: "Servicio comida · Estación: Cocina caliente"
+      - button "▣ VISTA TV" [ref=e783] [cursor=pointer]
+      - generic [ref=e784]: 14:25
+    - main [ref=e785]:
+      - generic [ref=e786]:
+        - generic [ref=e787]: DATOS DEMO
+        - generic [ref=e788]: ● Sincronización simulada · última revisión 14:25
+        - button "Simular desconexión" [ref=e789] [cursor=pointer]
+      - generic [ref=e790]:
+        - region "NUEVOS · 1" [ref=e791]:
+          - heading "NUEVOS · 1" [level=2] [ref=e792]
+          - article [ref=e793]:
+            - generic [ref=e794]:
+              - strong [ref=e795]: "#4592"
+              - generic [ref=e796]: 2 min
+            - heading "Mesa 12" [level=3] [ref=e797]
+            - list [ref=e798]:
+              - listitem [ref=e799]:
+                - strong [ref=e800]: 3 ×
+                - text: Tacos al pastor
+              - listitem [ref=e801]:
+                - strong [ref=e802]: 1 ×
+                - text: Arroz
+            - paragraph [ref=e803]: Salsa aparte.
+            - generic [ref=e804]:
+              - link "Ver detalle" [ref=e805] [cursor=pointer]:
+                - /url: "#kds-order-4592"
+              - button "Iniciar preparación" [ref=e806] [cursor=pointer]
+        - region "EN PREPARACIÓN · 2" [ref=e807]:
+          - heading "EN PREPARACIÓN · 2" [level=2] [ref=e808]
+          - article [ref=e809]:
+            - generic [ref=e810]:
+              - strong [ref=e811]: "#4589"
+              - generic [ref=e812]: 12 min
+            - heading "Mesa 03" [level=3] [ref=e813]
+            - list [ref=e814]:
+              - listitem [ref=e815]:
+                - strong [ref=e816]: 2 ×
+                - text: Pasta Alfredo
+              - listitem [ref=e817]:
+                - strong [ref=e818]: 1 ×
+                - text: Ensalada César
+            - paragraph [ref=e819]: Sin notas adicionales.
+            - generic [ref=e820]:
+              - link "Ver detalle" [ref=e821] [cursor=pointer]:
+                - /url: "#kds-order-4589"
+              - button "Marcar como listo" [ref=e822] [cursor=pointer]
+          - article [ref=e823]:
+            - generic [ref=e824]:
+              - strong [ref=e825]: "#4591"
+              - generic [ref=e826]: 9 min
+            - heading "Mesa 04" [level=3] [ref=e827]
+            - list [ref=e828]:
+              - listitem [ref=e829]:
+                - strong [ref=e830]: 1 ×
+                - text: Pechuga a la plancha
+              - listitem [ref=e831]:
+                - strong [ref=e832]: 2 ×
+                - text: Arroz blanco
+            - paragraph [ref=e833]: Sin gluten · confirmar.
+            - generic [ref=e834]:
+              - link "Ver detalle" [ref=e835] [cursor=pointer]:
+                - /url: "#kds-order-4591"
+              - button "Marcar como listo" [ref=e836] [cursor=pointer]
+        - region "LISTOS · 3" [ref=e837]:
+          - heading "LISTOS · 3" [level=2] [ref=e838]
+          - article [ref=e839]:
+            - generic [ref=e840]:
+              - strong [ref=e841]: "#4590"
+              - generic [ref=e842]: 5 min
+            - heading "Mesa 07" [level=3] [ref=e843]
+            - list [ref=e844]:
+              - listitem [ref=e845]:
+                - strong [ref=e846]: 2 ×
+                - text: Hamburguesa clásica
+              - listitem [ref=e847]:
+                - strong [ref=e848]: 1 ×
+                - text: Papas a la francesa
+            - paragraph [ref=e849]: Sin cebolla.
+            - paragraph [ref=e850]: ⚠ Sin cacahuate. Cliente con alergia confirmada.
+            - generic [ref=e851]:
+              - link "Ver detalle" [ref=e852] [cursor=pointer]:
+                - /url: "#kds-order-4590"
+              - button "Entregar pedido" [ref=e853] [cursor=pointer]
+          - article [ref=e854]:
+            - generic [ref=e855]:
+              - strong [ref=e856]: "#4588"
+              - generic [ref=e857]: 18 min
+            - heading "Mesa 02" [level=3] [ref=e858]
+            - list [ref=e859]:
+              - listitem [ref=e860]:
+                - strong [ref=e861]: 1 ×
+                - text: Pizza mediana
+              - listitem [ref=e862]:
+                - strong [ref=e863]: 2 ×
+                - text: Limonada
+            - paragraph [ref=e864]: Pedido completo.
+            - generic [ref=e865]:
+              - link "Ver detalle" [ref=e866] [cursor=pointer]:
+                - /url: "#kds-order-4588"
+              - button "Entregar pedido" [ref=e867] [cursor=pointer]
+          - article [ref=e868]:
+            - generic [ref=e869]:
+              - strong [ref=e870]: "#4587"
+              - generic [ref=e871]: 21 min
+            - heading "Mesa 05" [level=3] [ref=e872]
+            - list [ref=e873]:
+              - listitem [ref=e874]:
+                - strong [ref=e875]: 2 ×
+                - text: Hamburguesa
+              - listitem [ref=e876]:
+                - strong [ref=e877]: 1 ×
+                - text: Papas
+            - paragraph [ref=e878]: Pedido completo.
+            - generic [ref=e879]:
+              - link "Ver detalle" [ref=e880] [cursor=pointer]:
+                - /url: "#kds-order-4587"
+              - button "Entregar pedido" [ref=e881] [cursor=pointer]
+    - 'alertdialog "Confirma antes de avanzar la Comanda #4590" [ref=e883]':
+      - paragraph [ref=e884]: ⚠ ALERGIA / RESTRICCIÓN · CONFIRMACIÓN OBLIGATORIA
+      - 'heading "Confirma antes de avanzar la Comanda #4590" [level=2] [ref=e885]'
+      - paragraph [ref=e886]: Sin cacahuate. Cliente con alergia confirmada.
+      - generic [ref=e887]:
+        - button "Cancelar" [ref=e888] [cursor=pointer]
+        - button "Confirmar y continuar" [ref=e889] [cursor=pointer]
+    - status

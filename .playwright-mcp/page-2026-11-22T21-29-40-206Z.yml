@@ -1,0 +1,73 @@
+- main [ref=e2]:
+  - generic [ref=e845]:
+    - strong [ref=e846]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e847]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e848]:
+      - link "Inicio" [ref=e849] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e850] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e851] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e852] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e853]:
+    - generic [ref=e854]:
+      - link "Regresar al salón" [ref=e855] [cursor=pointer]:
+        - /url: "#pos"
+        - text: ←
+        - generic [ref=e856]: Salón
+      - link "Ir al inicio de Web Total POS" [ref=e857] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e859]: WebTotal POS
+      - generic [ref=e860]:
+        - strong [ref=e861]: Salón principal · Mesa 06
+        - generic [ref=e862]: Turno actual · 14:25
+      - button "Usuario Ana López" [ref=e863] [cursor=pointer]: AL
+    - main "Cerrar comanda" [ref=e864]:
+      - generic [ref=e865]: POS / Gestionar cuenta / Cerrar comanda / Mesa 06
+      - generic [ref=e866]:
+        - generic [ref=e867]:
+          - paragraph [ref=e868]: CIERRE DE COMANDA
+          - heading "Cerrar comanda" [level=1] [ref=e869]
+          - paragraph [ref=e870]: Mesa 06 · CMD-DEMO-006 · Paso demostrativo
+        - generic [ref=e871]: Paso 3 de 4
+      - note [ref=e872]:
+        - generic [aria-hidden] [ref=e873]: ◉
+        - generic [ref=e874]: Revisa el resumen antes de continuar · el cierre no se guarda
+      - region "Resumen de cierre" [ref=e875]:
+        - generic [ref=e876]:
+          - generic [ref=e877]:
+            - paragraph [ref=e878]: RESUMEN DE CUENTA
+            - heading "Mesa 06" [level=2] [ref=e879]
+            - paragraph [ref=e880]: 4 personas · Ana López
+          - generic [aria-hidden] [ref=e881]: ✓
+        - generic [ref=e882]:
+          - generic [ref=e883]:
+            - generic [ref=e884]: 1 × Hamburguesa clásica
+            - strong [ref=e885]: $190.00
+          - generic [ref=e886]:
+            - generic [ref=e887]: 2 × Limonada
+            - strong [ref=e888]: $90.00
+        - generic [ref=e889]:
+          - generic [ref=e890]: Total a cobrar
+          - strong [ref=e891]: $280.00
+      - generic [ref=e892]:
+        - heading "Antes de continuar" [level=2] [ref=e893]
+        - generic [ref=e894]:
+          - generic [aria-hidden] [ref=e895]: ✓
+          - paragraph [ref=e896]:
+            - generic [ref=e897]: Comanda revisada
+            - generic [ref=e898]: Los datos son ficticios y corresponden a la Mesa 06.
+        - generic [ref=e899]:
+          - generic [aria-hidden] [ref=e900]: ✓
+          - paragraph [ref=e901]:
+            - generic [ref=e902]: Cuenta lista para cobro DEMO
+            - generic [ref=e903]: El siguiente paso solo muestra la pantalla de cobro.
+      - generic [ref=e904]:
+        - link "← Regresar a cuenta" [ref=e905] [cursor=pointer]:
+          - /url: "#pos-account-06"
+        - link "Continuar al cobro" [ref=e906] [cursor=pointer]:
+          - /url: "#pos-payment-06"
+          - text: Continuar al cobro →
+      - paragraph [ref=e907]: Sin conexión operativa · cierre pendiente de confirmación

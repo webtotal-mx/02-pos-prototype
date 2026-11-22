@@ -1,0 +1,4 @@
+schema: spec-driven
+created: 2026-11-22
+goal: Permitir consultar los datos ficticios de una reserva sin modificarla ni
+  crear persistencia.

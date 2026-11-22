@@ -1,0 +1,113 @@
+- main [ref=f8e2]:
+  - generic [ref=f8e572]:
+    - strong [ref=f8e573]: PROTOTIPO · DATOS DEMO
+    - generic [ref=f8e574]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=f8e575]:
+      - link "Inicio" [ref=f8e576] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=f8e577] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=f8e578] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=f8e579] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=f8e580]:
+    - complementary [ref=f8e581]:
+      - link "Ir al inicio de Web Total POS" [ref=f8e582] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=f8e584]: WebTotal POS
+      - generic [ref=f8e585]: ⌂
+      - generic [ref=f8e586]: ⌁
+      - generic [ref=f8e587]: ◇
+      - generic [ref=f8e588]: 🛒
+      - generic [ref=f8e589]: ♧
+      - generic [ref=f8e590]: ▥
+      - generic [ref=f8e591]: ⚙
+    - generic [ref=f8e592]:
+      - generic [ref=f8e593]:
+        - generic [ref=f8e594]:
+          - heading "Panel administrativo" [level=1] [ref=f8e595]
+          - paragraph [ref=f8e596]: Visión general del negocio
+        - generic [ref=f8e597]:
+          - button "▣ Sucursal Centro ⌄" [ref=f8e598] [cursor=pointer]
+          - button "▣ Hoy ⌄" [ref=f8e599] [cursor=pointer]
+          - button "🟠 Ana López ⌄" [ref=f8e600] [cursor=pointer]
+      - paragraph [ref=f8e601]: Datos DEMO · última sincronización 19:12
+      - generic [ref=f8e602]:
+        - article [ref=f8e603]:
+          - text: Ventas de hoy
+          - strong [ref=f8e604]: $24,850
+          - text: ↗ +12.4% vs. ayer
+        - article [ref=f8e605]:
+          - text: Órdenes
+          - strong [ref=f8e606]: "128"
+          - text: ↗ +8.5% vs. ayer
+        - article [ref=f8e607]:
+          - text: Ticket promedio
+          - strong [ref=f8e608]: $194
+          - text: ↗ +3.1% vs. ayer
+        - article [ref=f8e609]:
+          - text: Mesas activas
+          - strong [ref=f8e610]: "9"
+          - text: de 12 mesas
+      - generic [ref=f8e611]:
+        - article [ref=f8e612]:
+          - heading "▥ Ventas de la semana" [level=2] [ref=f8e613]
+          - generic [ref=f8e614]:
+            - generic [ref=f8e615]: Lun
+            - generic [ref=f8e617]: Mar
+            - generic [ref=f8e619]: Mié
+            - generic [ref=f8e621]: Jue
+            - generic [ref=f8e623]: Vie
+            - generic [ref=f8e625]: Sáb
+            - generic [ref=f8e627]: Dom
+        - article [ref=f8e629]:
+          - heading "△ Alertas de inventario" [level=2] [ref=f8e630]
+          - generic [ref=f8e631]:
+            - generic [ref=f8e632]: "🍅 TomateStock actual: 4 kg"
+            - generic [ref=f8e633]: Bajo stock
+          - generic [ref=f8e634]:
+            - generic [ref=f8e635]: "🧀 QuesoStock actual: 10 kg"
+            - generic [ref=f8e636]: Reordenar
+          - generic [ref=f8e637]:
+            - generic [ref=f8e638]: "💧 Agua mineralStock actual: 8 unidades"
+            - generic [ref=f8e639]: 8 unidades
+        - article [ref=f8e640]:
+          - heading "☆ Productos más vendidos" [level=2] [ref=f8e641]
+          - table [ref=f8e642]:
+            - rowgroup [ref=f8e643]:
+              - row [ref=f8e644]:
+                - columnheader "#" [ref=f8e645]
+                - columnheader "Producto" [ref=f8e646]
+                - columnheader "Unidades" [ref=f8e647]
+                - columnheader "Ventas" [ref=f8e648]
+            - rowgroup [ref=f8e649]:
+              - row [ref=f8e650]:
+                - cell "1" [ref=f8e651]
+                - cell "🍔 Hamburguesa Clásica" [ref=f8e652]
+                - cell "36" [ref=f8e653]
+                - cell "$7,920" [ref=f8e654]
+              - row [ref=f8e655]:
+                - cell "2" [ref=f8e656]
+                - cell "🌮 Tacos al Pastor" [ref=f8e657]
+                - cell "28" [ref=f8e658]
+                - cell "$5,320" [ref=f8e659]
+              - row [ref=f8e660]:
+                - cell "3" [ref=f8e661]
+                - cell "🍕 Pizza Pepperoni" [ref=f8e662]
+                - cell "18" [ref=f8e663]
+                - cell "$4,500" [ref=f8e664]
+        - article [ref=f8e665]:
+          - heading "◎ Operación en tiempo real" [level=2] [ref=f8e666]
+          - generic [ref=f8e667]:
+            - text: ⚑ Mesas libres
+            - generic [ref=f8e668]: "3"
+          - generic [ref=f8e669]:
+            - text: ♧ Mesas ocupadas
+            - generic [ref=f8e670]: "6"
+          - generic [ref=f8e671]:
+            - text: ▣ Mesas reservadas
+            - generic [ref=f8e672]: "2"
+          - generic [ref=f8e673]:
+            - text: ▤ Mesas por cobrar
+            - generic [ref=f8e674]: "1"

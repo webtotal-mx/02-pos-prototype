@@ -1,0 +1,66 @@
+- main [ref=e2]:
+  - generic [ref=e438]:
+    - strong [ref=e439]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e440]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e441]:
+      - link "Inicio" [ref=e442] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e443] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e444] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e445] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e446]:
+    - generic [ref=e447]:
+      - link "Regresar al salón" [ref=e448] [cursor=pointer]:
+        - /url: "#pos"
+        - text: ←
+        - generic [ref=e449]: Salón
+      - link "Ir al inicio de Web Total POS" [ref=e450] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e452]: WebTotal POS
+      - generic [ref=e453]:
+        - strong [ref=e454]: Salón principal · Mesa 01
+        - generic [ref=e455]: Turno actual · 14:25
+      - button "Usuario Ana López" [ref=e456] [cursor=pointer]: AL
+    - main "Mesa 01" [ref=e457]:
+      - generic [ref=e458]: POS / Mesa y Comanda / Mesa 01
+      - generic [ref=e459]:
+        - generic [ref=e460]:
+          - paragraph [ref=e461]: MESA Y COMANDA
+          - heading "Mesa 01" [level=1] [ref=e462]
+          - paragraph [ref=e463]: CMD-DEMO-001 · 2 personas · Ana López
+        - generic [ref=e464]: Vista DEMO
+      - note [ref=e465]:
+        - generic [aria-hidden] [ref=e466]: ◉
+        - generic [ref=e467]: Apertura DEMO · la mesa conserva su estado Libre en el salón
+      - generic [ref=e468]:
+        - region "Resumen de comanda" [ref=e469]:
+          - generic [ref=e470]:
+            - generic [ref=e471]:
+              - paragraph [ref=e472]: COMANDA DEMO
+              - heading "CMD-DEMO-001" [level=2] [ref=e473]
+            - generic [ref=e474]: Apertura ilustrativa
+          - paragraph [ref=e475]: "2 personas · Responsable: Ana López"
+          - generic [ref=e477]:
+            - generic [ref=e478]:
+              - generic [ref=e479]: 2 × Enchiladas de pollo
+              - generic [ref=e480]: Apertura ilustrativa · sin cebolla
+            - strong [ref=e481]: $280.00
+          - generic [ref=e482]:
+            - generic [ref=e483]: Total ficticio
+            - strong [ref=e484]: $280.00
+        - complementary [ref=e485]:
+          - generic [ref=e486]:
+            - strong [ref=e487]: Nota de continuidad
+            - paragraph [ref=e488]: Cliente solicita atención rápida.
+          - generic [ref=e489]:
+            - strong [ref=e490]: Confirmar disponibilidad de cocina antes de enviar
+            - paragraph [ref=e491]: La confirmación es ilustrativa y no envía información a cocina.
+          - generic [ref=e492]:
+            - link "Gestionar cuenta" [ref=e493] [cursor=pointer]:
+              - /url: "#pos-account-01"
+            - button "Confirmar y enviar a cocina" [ref=e494] [cursor=pointer]
+            - generic [ref=e495]: Respuesta DEMO · sin persistencia
+    - status

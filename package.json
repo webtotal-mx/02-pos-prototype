@@ -1,0 +1,14 @@
+{
+  "name": "02-pos-prototype",
+  "version": "1.0.0",
+  "description": "Prototipo HTML demostrativo de Web Total POS",
+  "main": "app.js",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "start": "python3 -m http.server 4173"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

@@ -1,0 +1,66 @@
+- main [ref=e2]:
+  - generic [ref=e496]:
+    - strong [ref=e497]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e498]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e499]:
+      - link "Inicio" [ref=e500] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e501] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e502] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e503] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e504]:
+    - generic [ref=e505]:
+      - link "Regresar al salón" [ref=e506] [cursor=pointer]:
+        - /url: "#pos"
+        - text: ←
+        - generic [ref=e507]: Salón
+      - link "Ir al inicio de Web Total POS" [ref=e508] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e510]: WebTotal POS
+      - generic [ref=e511]:
+        - strong [ref=e512]: Salón principal · Mesa 03
+        - generic [ref=e513]: Turno actual · 14:25
+      - button "Usuario Ana López" [ref=e514] [cursor=pointer]: AL
+    - main "Mesa 03" [ref=e515]:
+      - generic [ref=e516]: POS / Mesa y Comanda / Mesa 03
+      - generic [ref=e517]:
+        - generic [ref=e518]:
+          - paragraph [ref=e519]: MESA Y COMANDA
+          - heading "Mesa 03" [level=1] [ref=e520]
+          - paragraph [ref=e521]: CMD-DEMO-003 · 3 personas · Luis García
+        - generic [ref=e522]: Vista DEMO
+      - note [ref=e523]:
+        - generic [aria-hidden] [ref=e524]: ◉
+        - generic [ref=e525]: Apertura DEMO · la mesa conserva su estado Libre en el salón
+      - generic [ref=e526]:
+        - region "Resumen de comanda" [ref=e527]:
+          - generic [ref=e528]:
+            - generic [ref=e529]:
+              - paragraph [ref=e530]: COMANDA DEMO
+              - heading "CMD-DEMO-003" [level=2] [ref=e531]
+            - generic [ref=e532]: Apertura ilustrativa
+          - paragraph [ref=e533]: "3 personas · Responsable: Luis García"
+          - generic [ref=e535]:
+            - generic [ref=e536]:
+              - generic [ref=e537]: 3 × Tacos al pastor
+              - generic [ref=e538]: Salsa aparte · apertura ilustrativa
+            - strong [ref=e539]: $360.00
+          - generic [ref=e540]:
+            - generic [ref=e541]: Total ficticio
+            - strong [ref=e542]: $360.00
+        - complementary [ref=e543]:
+          - generic [ref=e544]:
+            - strong [ref=e545]: Nota de continuidad
+            - paragraph [ref=e546]: Cliente solicita cuenta individual.
+          - generic [ref=e547]:
+            - strong [ref=e548]: Salsa aparte · confirmar con la cocina
+            - paragraph [ref=e549]: La confirmación es ilustrativa y no envía información a cocina.
+          - generic [ref=e550]:
+            - link "Gestionar cuenta" [ref=e551] [cursor=pointer]:
+              - /url: "#pos-account-03"
+            - button "Confirmar y enviar a cocina" [ref=e552] [cursor=pointer]
+            - generic [ref=e553]: Respuesta DEMO · sin persistencia
+    - status

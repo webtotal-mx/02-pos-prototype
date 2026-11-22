@@ -1,0 +1,59 @@
+- main [ref=e2]:
+  - generic [ref=e322]:
+    - strong [ref=e323]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e324]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e325]:
+      - link "Inicio" [ref=e326] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e327] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e328] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e329] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e330]:
+    - generic [ref=e331]:
+      - link "Ir al inicio de Web Total POS" [ref=e332] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e334]: WebTotal POS
+      - generic [ref=e335]:
+        - heading "DETALLE DE COMANDA" [level=1] [ref=e336]
+        - paragraph [ref=e337]: Cocina caliente · Datos DEMO
+      - generic [ref=e338]: 14:25
+    - main [ref=e339]:
+      - link "← Regresar a comandas" [ref=e340] [cursor=pointer]:
+        - /url: "#kds"
+      - generic [ref=e341]:
+        - generic [ref=e342]:
+          - paragraph [ref=e343]: COMANDA DEMO
+          - 'heading "Comanda #4590 · Mesa 07" [level=1] [ref=e344]'
+          - paragraph [ref=e345]: Recibida a las 14:20 · Antigüedad 5 min
+        - generic [ref=e346]: Nuevos
+      - generic [ref=e347]:
+        - generic [ref=e348]:
+          - heading "Productos" [level=2] [ref=e349]
+          - list [ref=e350]:
+            - listitem [ref=e351]:
+              - strong [ref=e352]: 2 ×
+              - text: Hamburguesa clásica
+            - listitem [ref=e353]:
+              - strong [ref=e354]: 1 ×
+              - text: Papas a la francesa
+          - paragraph [ref=e355]:
+            - strong [ref=e356]: "Notas:"
+            - text: Sin cebolla.
+        - complementary [ref=e357]:
+          - generic [ref=e358]:
+            - paragraph [ref=e359]: ⚠ ALERGIA / RESTRICCIÓN
+            - strong [ref=e360]: Sin cacahuate. Cliente con alergia confirmada.
+            - generic [ref=e361]: Confirmación obligatoria antes de avanzar.
+          - button "Iniciar preparación" [ref=e362] [cursor=pointer]
+          - paragraph [ref=e363]: Acción DEMO · no envía cambios a producción.
+    - 'alertdialog "Confirma antes de avanzar la Comanda #4590" [ref=e365]':
+      - paragraph [ref=e366]: ⚠ ALERGIA / RESTRICCIÓN · CONFIRMACIÓN OBLIGATORIA
+      - 'heading "Confirma antes de avanzar la Comanda #4590" [level=2] [ref=e367]'
+      - paragraph [ref=e368]: Sin cacahuate. Cliente con alergia confirmada.
+      - generic [ref=e369]:
+        - button "Cancelar" [ref=e370] [cursor=pointer]
+        - button "Confirmar y continuar" [ref=e371] [cursor=pointer]
+    - status

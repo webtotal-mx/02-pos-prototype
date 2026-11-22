@@ -1,0 +1,91 @@
+- main [ref=f8e2]:
+  - generic [ref=f8e675]:
+    - strong [ref=f8e676]: PROTOTIPO · DATOS DEMO
+    - generic [ref=f8e677]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=f8e678]:
+      - link "Inicio" [ref=f8e679] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=f8e680] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=f8e681] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=f8e682] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=f8e683]:
+    - generic [ref=f8e684]:
+      - link "Ir al inicio de Web Total POS" [ref=f8e685] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=f8e687]: WebTotal POS
+      - generic [ref=f8e688]:
+        - heading "COMANDAS · COCINA CENTRAL" [level=1] [ref=f8e689]
+        - paragraph [ref=f8e690]: "Servicio comida · Estación: Cocina caliente"
+      - button "▣ VISTA TV" [ref=f8e691] [cursor=pointer]
+      - button "2 EXCEPCIONES" [ref=f8e692] [cursor=pointer]
+      - generic [ref=f8e693]: 14:25
+    - generic [ref=f8e694]:
+      - generic [ref=f8e695]:
+        - heading "NUEVOS · 3" [level=2] [ref=f8e696]
+        - article [ref=f8e697]:
+          - generic [ref=f8e698]:
+            - strong [ref=f8e699]: "#4590"
+            - generic [ref=f8e700]: 5 min
+          - heading "Mesa 07" [level=3] [ref=f8e701]
+          - list [ref=f8e702]:
+            - listitem [ref=f8e703]: 2 × Hamburguesa clásica
+            - listitem [ref=f8e704]: 1 × Papas a la francesa
+            - listitem [ref=f8e705]: ¡SIN CEBOLLA!
+          - button "Iniciar preparación" [ref=f8e706] [cursor=pointer]
+        - article [ref=f8e707]:
+          - generic [ref=f8e708]:
+            - strong [ref=f8e709]: "#4592"
+            - generic [ref=f8e710]: 2 min
+          - heading "Mesa 12" [level=3] [ref=f8e711]
+          - list [ref=f8e712]:
+            - listitem [ref=f8e713]: 3 × Tacos al pastor
+            - listitem [ref=f8e714]: 1 × Arroz
+            - listitem [ref=f8e715]: "Nota: salsa aparte"
+          - button "Iniciar preparación" [ref=f8e716] [cursor=pointer]
+      - generic [ref=f8e717]:
+        - heading "EN PREPARACIÓN · 2" [level=2] [ref=f8e718]
+        - article [ref=f8e719]:
+          - generic [ref=f8e720]:
+            - strong [ref=f8e721]: "#4589"
+            - generic [ref=f8e722]: 12 min
+          - heading "Mesa 03" [level=3] [ref=f8e723]
+          - list [ref=f8e724]:
+            - listitem [ref=f8e725]: 2 × Pasta Alfredo
+            - listitem [ref=f8e726]: 1 × Ensalada César
+            - listitem [ref=f8e727]: 1 × Agua natural
+          - button "Marcar listo" [ref=f8e728] [cursor=pointer]
+        - article [ref=f8e729]:
+          - generic [ref=f8e730]:
+            - strong [ref=f8e731]: "#4591"
+            - generic [ref=f8e732]: 9 min
+          - heading "Mesa 04" [level=3] [ref=f8e733]
+          - list [ref=f8e734]:
+            - listitem [ref=f8e735]: 1 × Pechuga a la plancha
+            - listitem [ref=f8e736]: 2 × Arroz blanco
+            - listitem [ref=f8e737]: SIN GLUTEN – confirmar
+          - button "Marcar listo" [ref=f8e738] [cursor=pointer]
+      - generic [ref=f8e739]:
+        - heading "LISTOS · 2" [level=2] [ref=f8e740]
+        - article [ref=f8e741]:
+          - generic [ref=f8e742]:
+            - strong [ref=f8e743]: "#4588"
+            - generic [ref=f8e744]: 18 min
+          - heading "Mesa 02" [level=3] [ref=f8e745]
+          - list [ref=f8e746]:
+            - listitem [ref=f8e747]: 1 × Pizza mediana
+            - listitem [ref=f8e748]: 2 × Limonada
+            - listitem [ref=f8e749]: Pedido completo
+          - button "Entregar" [ref=f8e750] [cursor=pointer]
+        - article [ref=f8e751]:
+          - generic [ref=f8e752]:
+            - strong [ref=f8e753]: "#4587"
+            - generic [ref=f8e754]: 21 min
+          - heading "Mesa 05" [level=3] [ref=f8e755]
+          - list [ref=f8e756]:
+            - listitem [ref=f8e757]: 2 × Hamburguesa
+            - listitem [ref=f8e758]: 1 × Papas
+            - listitem [ref=f8e759]: Pedido completo
+          - button "Entregar" [ref=f8e760] [cursor=pointer]

@@ -1,0 +1,150 @@
+- main [ref=e2]:
+  - generic [ref=e62]:
+    - strong [ref=e63]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e64]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e65]:
+      - link "Inicio" [ref=e66] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e67] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e68] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e69] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e70]:
+    - generic [ref=e71]:
+      - link "Ir al inicio de Web Total POS" [ref=e72] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e74]: WebTotal POS
+      - generic [ref=e75]:
+        - strong [ref=e76]: Salón principal
+        - generic [ref=e77]: Turno actual · 14:25
+      - button "Usuario Ana López" [ref=e78] [cursor=pointer]: AL
+    - generic [ref=e79]:
+      - region "Distribución de mesas" [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - paragraph [ref=e83]: OPERACIÓN DE SALÓN
+            - heading "Distribución de mesas" [level=1] [ref=e84]
+            - paragraph [ref=e85]: Selecciona una mesa para abrir su siguiente paso.
+          - generic [ref=e86]: Vista DEMO
+        - region "Resumen de estados de mesas" [ref=e87]:
+          - article [ref=e88]:
+            - generic [ref=e90]:
+              - strong [ref=e91]: "3"
+              - text: Libres
+          - article [ref=e92]:
+            - generic [ref=e94]:
+              - strong [ref=e95]: "3"
+              - text: Ocupadas
+          - article [ref=e96]:
+            - generic [ref=e98]:
+              - strong [ref=e99]: "2"
+              - text: Reservadas
+          - article [ref=e100]:
+            - generic [ref=e102]:
+              - strong [ref=e103]: "1"
+              - text: Por cobrar
+        - generic "Mesas del salón" [ref=e104]:
+          - article [ref=e105]:
+            - generic [ref=e106]:
+              - heading "Mesa 01" [level=3] [ref=e107]
+              - generic [ref=e108]: Libre
+            - paragraph [ref=e110]: Disponible para recibir
+            - paragraph [ref=e111]: Lista para recibir personas
+            - button "Abrir mesa" [ref=e112] [cursor=pointer]:
+              - text: Abrir mesa
+              - generic [aria-hidden] [ref=e113]: →
+          - article [ref=e114]:
+            - generic [ref=e115]:
+              - heading "Mesa 02" [level=3] [ref=e116]
+              - generic [ref=e117]: Ocupada
+            - paragraph [ref=e119]: CMD-000185 · 4 personas
+            - paragraph [ref=e120]: "Responsable: Ana López"
+            - button "Ver comanda" [ref=e121] [cursor=pointer]:
+              - text: Ver comanda
+              - generic [aria-hidden] [ref=e122]: →
+          - article [ref=e123]:
+            - generic [ref=e124]:
+              - heading "Mesa 03" [level=3] [ref=e125]
+              - generic [ref=e126]: Libre
+            - paragraph [ref=e128]: Disponible para recibir
+            - paragraph [ref=e129]: Lista para recibir personas
+            - button "Abrir mesa" [ref=e130] [cursor=pointer]:
+              - text: Abrir mesa
+              - generic [aria-hidden] [ref=e131]: →
+          - article [ref=e132]:
+            - generic [ref=e133]:
+              - heading "Mesa 04" [level=3] [ref=e134]
+              - generic [ref=e135]: Ocupada
+            - paragraph [ref=e137]: CMD-000187 · 2 personas
+            - paragraph [ref=e138]: "Responsable: Luis García"
+            - button "Ver comanda" [ref=e139] [cursor=pointer]:
+              - text: Ver comanda
+              - generic [aria-hidden] [ref=e140]: →
+          - article [ref=e141]:
+            - generic [ref=e142]:
+              - heading "Mesa 05" [level=3] [ref=e143]
+              - generic [ref=e144]: Reservada
+            - paragraph [ref=e146]: 19:30 · 6 personas
+            - paragraph [ref=e147]: "Reserva: Mariana Ruiz"
+            - button "Ver reserva" [ref=e148] [cursor=pointer]:
+              - text: Ver reserva
+              - generic [aria-hidden] [ref=e149]: →
+          - article [ref=e150]:
+            - generic [ref=e151]:
+              - heading "Mesa 06" [level=3] [ref=e152]
+              - generic [ref=e153]: Libre
+            - paragraph [ref=e155]: Disponible para recibir
+            - paragraph [ref=e156]: Lista para recibir personas
+            - button "Abrir mesa" [ref=e157] [cursor=pointer]:
+              - text: Abrir mesa
+              - generic [aria-hidden] [ref=e158]: →
+          - article [ref=e159]:
+            - generic [ref=e160]:
+              - heading "Mesa 07" [level=3] [ref=e161]
+              - generic [ref=e162]: Ocupada
+            - paragraph [ref=e164]: CMD-000189 · 3 personas
+            - paragraph [ref=e165]: "Responsable: Carlos Méndez"
+            - button "Ver comanda" [ref=e166] [cursor=pointer]:
+              - text: Ver comanda
+              - generic [aria-hidden] [ref=e167]: →
+          - article [ref=e168]:
+            - generic [ref=e169]:
+              - heading "Mesa 08" [level=3] [ref=e170]
+              - generic [ref=e171]: Por cobrar
+            - paragraph [ref=e173]: CMD-000190 · 5 personas
+            - paragraph [ref=e174]: "Responsable: Ana López"
+            - button "Gestionar cuenta" [ref=e175] [cursor=pointer]:
+              - text: Gestionar cuenta
+              - generic [aria-hidden] [ref=e176]: →
+          - article [ref=e177]:
+            - generic [ref=e178]:
+              - heading "Mesa 09" [level=3] [ref=e179]
+              - generic [ref=e180]: Reservada
+            - paragraph [ref=e182]: 20:00 · 2 personas
+            - paragraph [ref=e183]: "Reserva: Jorge Navarro"
+            - button "Ver reserva" [ref=e184] [cursor=pointer]:
+              - text: Ver reserva
+              - generic [aria-hidden] [ref=e185]: →
+      - complementary "Mesa 02" [ref=e186]:
+        - generic [ref=e187]:
+          - generic [ref=e188]:
+            - paragraph [ref=e189]: Comanda DEMO
+            - heading "Mesa 02" [level=2] [ref=e190]
+          - generic [ref=e191]: Ocupada
+        - paragraph [ref=e193]: CMD-000185 · 4 personas · Ana López
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - generic [ref=e196]: 2 × Tacos al pastorSin cebolla · nota a cocina
+            - generic [ref=e197]: $240.00
+          - generic [ref=e198]:
+            - generic [ref=e199]: 1 × Agua mineral
+            - generic [ref=e200]: $35.00
+        - paragraph [ref=e201]: "Nota: Enviar tacos a cocina caliente"
+        - generic [ref=e202]:
+          - generic [ref=e203]: Total ficticio
+          - generic [ref=e204]: $275.00
+        - button "Gestionar cuenta" [ref=e205] [cursor=pointer]
+        - generic [ref=e206]: Acción ilustrativa · no procesa pagos reales
+    - status

@@ -1,0 +1,139 @@
+- main [ref=e2]:
+  - generic [ref=e414]:
+    - strong [ref=e415]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e416]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e417]:
+      - link "Inicio" [ref=e418] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e419] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e420] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e421] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e422]:
+    - generic [ref=e423]:
+      - link "Ir al inicio de Web Total POS" [ref=e424] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e426]: WebTotal POS
+      - generic [ref=e427]:
+        - heading "COMANDAS · COCINA CENTRAL" [level=1] [ref=e428]
+        - paragraph [ref=e429]: "Servicio comida · Estación: Cocina caliente"
+      - button "▣ VISTA TV" [ref=e430] [cursor=pointer]
+      - generic [ref=e431]: 14:25
+    - main [ref=e432]:
+      - generic [ref=e433]:
+        - generic [ref=e434]: DATOS DEMO
+        - generic [ref=e435]: ● Sincronización simulada · última revisión 14:25
+        - button "Simular desconexión" [ref=e436] [cursor=pointer]
+      - generic [ref=e437]:
+        - region "NUEVOS · 1" [ref=e438]:
+          - heading "NUEVOS · 1" [level=2] [ref=e439]
+          - article [ref=e440]:
+            - generic [ref=e441]:
+              - strong [ref=e442]: "#4592"
+              - generic [ref=e443]: 2 min
+            - heading "Mesa 12" [level=3] [ref=e444]
+            - list [ref=e445]:
+              - listitem [ref=e446]:
+                - strong [ref=e447]: 3 ×
+                - text: Tacos al pastor
+              - listitem [ref=e448]:
+                - strong [ref=e449]: 1 ×
+                - text: Arroz
+            - paragraph [ref=e450]: Salsa aparte.
+            - generic [ref=e451]:
+              - link "Ver detalle" [ref=e452] [cursor=pointer]:
+                - /url: "#kds-order-4592"
+              - button "Iniciar preparación" [ref=e453] [cursor=pointer]
+        - region "EN PREPARACIÓN · 3" [ref=e454]:
+          - heading "EN PREPARACIÓN · 3" [level=2] [ref=e455]
+          - article [ref=e456]:
+            - generic [ref=e457]:
+              - strong [ref=e458]: "#4590"
+              - generic [ref=e459]: 5 min
+            - heading "Mesa 07" [level=3] [ref=e460]
+            - list [ref=e461]:
+              - listitem [ref=e462]:
+                - strong [ref=e463]: 2 ×
+                - text: Hamburguesa clásica
+              - listitem [ref=e464]:
+                - strong [ref=e465]: 1 ×
+                - text: Papas a la francesa
+            - paragraph [ref=e466]: Sin cebolla.
+            - paragraph [ref=e467]: ⚠ Sin cacahuate. Cliente con alergia confirmada.
+            - generic [ref=e468]:
+              - link "Ver detalle" [ref=e469] [cursor=pointer]:
+                - /url: "#kds-order-4590"
+              - button "Marcar como listo" [ref=e470] [cursor=pointer]
+          - article [ref=e471]:
+            - generic [ref=e472]:
+              - strong [ref=e473]: "#4589"
+              - generic [ref=e474]: 12 min
+            - heading "Mesa 03" [level=3] [ref=e475]
+            - list [ref=e476]:
+              - listitem [ref=e477]:
+                - strong [ref=e478]: 2 ×
+                - text: Pasta Alfredo
+              - listitem [ref=e479]:
+                - strong [ref=e480]: 1 ×
+                - text: Ensalada César
+            - paragraph [ref=e481]: Sin notas adicionales.
+            - generic [ref=e482]:
+              - link "Ver detalle" [ref=e483] [cursor=pointer]:
+                - /url: "#kds-order-4589"
+              - button "Marcar como listo" [ref=e484] [cursor=pointer]
+          - article [ref=e485]:
+            - generic [ref=e486]:
+              - strong [ref=e487]: "#4591"
+              - generic [ref=e488]: 9 min
+            - heading "Mesa 04" [level=3] [ref=e489]
+            - list [ref=e490]:
+              - listitem [ref=e491]:
+                - strong [ref=e492]: 1 ×
+                - text: Pechuga a la plancha
+              - listitem [ref=e493]:
+                - strong [ref=e494]: 2 ×
+                - text: Arroz blanco
+            - paragraph [ref=e495]: Sin gluten · confirmar.
+            - generic [ref=e496]:
+              - link "Ver detalle" [ref=e497] [cursor=pointer]:
+                - /url: "#kds-order-4591"
+              - button "Marcar como listo" [ref=e498] [cursor=pointer]
+        - region "LISTOS · 2" [ref=e499]:
+          - heading "LISTOS · 2" [level=2] [ref=e500]
+          - article [ref=e501]:
+            - generic [ref=e502]:
+              - strong [ref=e503]: "#4588"
+              - generic [ref=e504]: 18 min
+            - heading "Mesa 02" [level=3] [ref=e505]
+            - list [ref=e506]:
+              - listitem [ref=e507]:
+                - strong [ref=e508]: 1 ×
+                - text: Pizza mediana
+              - listitem [ref=e509]:
+                - strong [ref=e510]: 2 ×
+                - text: Limonada
+            - paragraph [ref=e511]: Pedido completo.
+            - generic [ref=e512]:
+              - link "Ver detalle" [ref=e513] [cursor=pointer]:
+                - /url: "#kds-order-4588"
+              - button "Entregar pedido" [ref=e514] [cursor=pointer]
+          - article [ref=e515]:
+            - generic [ref=e516]:
+              - strong [ref=e517]: "#4587"
+              - generic [ref=e518]: 21 min
+            - heading "Mesa 05" [level=3] [ref=e519]
+            - list [ref=e520]:
+              - listitem [ref=e521]:
+                - strong [ref=e522]: 2 ×
+                - text: Hamburguesa
+              - listitem [ref=e523]:
+                - strong [ref=e524]: 1 ×
+                - text: Papas
+            - paragraph [ref=e525]: Pedido completo.
+            - generic [ref=e526]:
+              - link "Ver detalle" [ref=e527] [cursor=pointer]:
+                - /url: "#kds-order-4587"
+              - button "Entregar pedido" [ref=e528] [cursor=pointer]
+    - status

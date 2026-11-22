@@ -1,0 +1,79 @@
+- main [ref=e2]:
+  - generic [ref=e760]:
+    - strong [ref=e761]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e762]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e763]:
+      - link "Inicio" [ref=e764] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e765] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e766] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e767] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e768]:
+    - generic [ref=e769]:
+      - link "Regresar al salón" [ref=e770] [cursor=pointer]:
+        - /url: "#pos"
+        - text: ←
+        - generic [ref=e771]: Salón
+      - link "Ir al inicio de Web Total POS" [ref=e772] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e774]: WebTotal POS
+      - generic [ref=e775]:
+        - strong [ref=e776]: Salón principal · Mesa 06
+        - generic [ref=e777]: Turno actual · 14:25
+      - button "Usuario Ana López" [ref=e778] [cursor=pointer]: AL
+    - main "Cobro · Mesa 06" [ref=e779]:
+      - generic [ref=e780]: POS / Cerrar comanda / Cobro / Mesa 06
+      - generic [ref=e781]:
+        - generic [ref=e782]:
+          - paragraph [ref=e783]: COBRO ILUSTRATIVO
+          - heading "Cobro · Mesa 06" [level=1] [ref=e784]
+          - paragraph [ref=e785]: CMD-DEMO-006 · DEMO
+        - generic [ref=e786]: Paso 4 de 4
+      - note [ref=e787]:
+        - generic [aria-hidden] [ref=e788]: ◉
+        - generic [ref=e789]: Pago DEMO · no conecta terminales ni procesa dinero real
+      - generic [ref=e791]:
+        - generic [ref=e792]:
+          - generic [ref=e793]:
+            - generic [ref=e794]:
+              - paragraph [ref=e795]: RESUMEN DEMO
+              - heading "Mesa 06" [level=2] [ref=e796]
+            - generic [ref=e797]: Pendiente
+          - generic [ref=e798]:
+            - generic [ref=e799]:
+              - generic [ref=e800]: Subtotal
+              - strong [ref=e801]: $280.00
+            - generic [ref=e802]:
+              - generic [ref=e803]: Impuesto sucursal 16 %
+              - strong [ref=e804]: $44.80
+            - generic [ref=e805]:
+              - generic [ref=e806]: Propina sugerida 10 %
+              - strong [ref=e807]: $28.00
+            - generic [ref=e808]:
+              - generic [ref=e809]: Total ilustrativo
+              - strong [ref=e810]: $324.80
+        - generic [ref=e811]:
+          - heading "Propina" [level=2] [ref=e812]
+          - group "Seleccionar propina" [ref=e813]:
+            - button "0 %" [ref=e814] [cursor=pointer]
+            - button "10 %" [ref=e815] [cursor=pointer]
+            - button "Personalizada" [ref=e816] [cursor=pointer]
+          - paragraph [ref=e817]: "Cantidad fija: $ 28.00"
+        - generic [ref=e818]:
+          - heading "Método por sucursal" [level=2] [ref=e819]
+          - group "Seleccionar método de pago" [ref=e820]:
+            - button "Efectivo" [ref=e821] [cursor=pointer]
+            - button "Crédito" [ref=e822] [cursor=pointer]
+            - button "Débito" [ref=e823] [cursor=pointer]
+            - button "Cheque" [ref=e824] [cursor=pointer]
+        - button "Registrar pago DEMO" [ref=e825] [cursor=pointer]
+        - paragraph [ref=e826]: "Offline: mesa liberada · cuenta Por cobrar / pendiente de confirmación."
+      - generic [ref=e827]:
+        - link "← Regresar al cierre" [ref=e828] [cursor=pointer]:
+          - /url: "#pos-close-06"
+        - link "Volver al salón" [ref=e829] [cursor=pointer]:
+          - /url: "#pos"
+    - status

@@ -1,0 +1,139 @@
+- main [ref=e2]:
+  - generic [ref=e652]:
+    - strong [ref=e653]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e654]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e655]:
+      - link "Inicio" [ref=e656] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e657] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e658] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e659] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e660]:
+    - generic [ref=e661]:
+      - link "Ir al inicio de Web Total POS" [ref=e662] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e664]: WebTotal POS
+      - generic [ref=e665]:
+        - heading "COMANDAS · COCINA CENTRAL" [level=1] [ref=e666]
+        - paragraph [ref=e667]: "Servicio comida · Estación: Cocina caliente"
+      - button "▣ VISTA TV" [ref=e668] [cursor=pointer]
+      - generic [ref=e669]: 14:25
+    - main [ref=e670]:
+      - generic [ref=e671]:
+        - generic [ref=e672]: DATOS DEMO
+        - generic [ref=e673]: ● Sincronización simulada · última revisión 14:25
+        - button "Simular desconexión" [ref=e674] [cursor=pointer]
+      - generic [ref=e675]:
+        - region "NUEVOS · 1" [ref=e676]:
+          - heading "NUEVOS · 1" [level=2] [ref=e677]
+          - article [ref=e678]:
+            - generic [ref=e679]:
+              - strong [ref=e680]: "#4592"
+              - generic [ref=e681]: 2 min
+            - heading "Mesa 12" [level=3] [ref=e682]
+            - list [ref=e683]:
+              - listitem [ref=e684]:
+                - strong [ref=e685]: 3 ×
+                - text: Tacos al pastor
+              - listitem [ref=e686]:
+                - strong [ref=e687]: 1 ×
+                - text: Arroz
+            - paragraph [ref=e688]: Salsa aparte.
+            - generic [ref=e689]:
+              - link "Ver detalle" [ref=e690] [cursor=pointer]:
+                - /url: "#kds-order-4592"
+              - button "Iniciar preparación" [ref=e691] [cursor=pointer]
+        - region "EN PREPARACIÓN · 2" [ref=e692]:
+          - heading "EN PREPARACIÓN · 2" [level=2] [ref=e693]
+          - article [ref=e694]:
+            - generic [ref=e695]:
+              - strong [ref=e696]: "#4589"
+              - generic [ref=e697]: 12 min
+            - heading "Mesa 03" [level=3] [ref=e698]
+            - list [ref=e699]:
+              - listitem [ref=e700]:
+                - strong [ref=e701]: 2 ×
+                - text: Pasta Alfredo
+              - listitem [ref=e702]:
+                - strong [ref=e703]: 1 ×
+                - text: Ensalada César
+            - paragraph [ref=e704]: Sin notas adicionales.
+            - generic [ref=e705]:
+              - link "Ver detalle" [ref=e706] [cursor=pointer]:
+                - /url: "#kds-order-4589"
+              - button "Marcar como listo" [ref=e707] [cursor=pointer]
+          - article [ref=e708]:
+            - generic [ref=e709]:
+              - strong [ref=e710]: "#4591"
+              - generic [ref=e711]: 9 min
+            - heading "Mesa 04" [level=3] [ref=e712]
+            - list [ref=e713]:
+              - listitem [ref=e714]:
+                - strong [ref=e715]: 1 ×
+                - text: Pechuga a la plancha
+              - listitem [ref=e716]:
+                - strong [ref=e717]: 2 ×
+                - text: Arroz blanco
+            - paragraph [ref=e718]: Sin gluten · confirmar.
+            - generic [ref=e719]:
+              - link "Ver detalle" [ref=e720] [cursor=pointer]:
+                - /url: "#kds-order-4591"
+              - button "Marcar como listo" [ref=e721] [cursor=pointer]
+        - region "LISTOS · 3" [ref=e722]:
+          - heading "LISTOS · 3" [level=2] [ref=e723]
+          - article [ref=e724]:
+            - generic [ref=e725]:
+              - strong [ref=e726]: "#4590"
+              - generic [ref=e727]: 5 min
+            - heading "Mesa 07" [level=3] [ref=e728]
+            - list [ref=e729]:
+              - listitem [ref=e730]:
+                - strong [ref=e731]: 2 ×
+                - text: Hamburguesa clásica
+              - listitem [ref=e732]:
+                - strong [ref=e733]: 1 ×
+                - text: Papas a la francesa
+            - paragraph [ref=e734]: Sin cebolla.
+            - paragraph [ref=e735]: ⚠ Sin cacahuate. Cliente con alergia confirmada.
+            - generic [ref=e736]:
+              - link "Ver detalle" [ref=e737] [cursor=pointer]:
+                - /url: "#kds-order-4590"
+              - button "Entregar pedido" [ref=e738] [cursor=pointer]
+          - article [ref=e739]:
+            - generic [ref=e740]:
+              - strong [ref=e741]: "#4588"
+              - generic [ref=e742]: 18 min
+            - heading "Mesa 02" [level=3] [ref=e743]
+            - list [ref=e744]:
+              - listitem [ref=e745]:
+                - strong [ref=e746]: 1 ×
+                - text: Pizza mediana
+              - listitem [ref=e747]:
+                - strong [ref=e748]: 2 ×
+                - text: Limonada
+            - paragraph [ref=e749]: Pedido completo.
+            - generic [ref=e750]:
+              - link "Ver detalle" [ref=e751] [cursor=pointer]:
+                - /url: "#kds-order-4588"
+              - button "Entregar pedido" [ref=e752] [cursor=pointer]
+          - article [ref=e753]:
+            - generic [ref=e754]:
+              - strong [ref=e755]: "#4587"
+              - generic [ref=e756]: 21 min
+            - heading "Mesa 05" [level=3] [ref=e757]
+            - list [ref=e758]:
+              - listitem [ref=e759]:
+                - strong [ref=e760]: 2 ×
+                - text: Hamburguesa
+              - listitem [ref=e761]:
+                - strong [ref=e762]: 1 ×
+                - text: Papas
+            - paragraph [ref=e763]: Pedido completo.
+            - generic [ref=e764]:
+              - link "Ver detalle" [ref=e765] [cursor=pointer]:
+                - /url: "#kds-order-4587"
+              - button "Entregar pedido" [ref=e766] [cursor=pointer]
+    - status: "Comanda #4590 ahora está en Listos · acción DEMO"

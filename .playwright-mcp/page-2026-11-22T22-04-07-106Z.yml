@@ -1,0 +1,65 @@
+- main [ref=e2]:
+  - generic [ref=e399]:
+    - strong [ref=e400]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e401]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e402]:
+      - link "Inicio" [ref=e403] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e404] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e405] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e406] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e407]:
+    - generic [ref=e408]:
+      - link "Regresar al salón" [ref=e409] [cursor=pointer]:
+        - /url: "#pos"
+        - text: ←
+      - link "Ir al inicio de Web Total POS" [ref=e410] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e412]: WebTotal POS
+      - generic [ref=e413]:
+        - strong [ref=e414]: Salón principal · Mesa 05
+        - generic [ref=e415]: Turno actual · 14:25
+      - button "Usuario Ana López" [ref=e416] [cursor=pointer]: AL
+    - main "Reserva · Mesa 05" [ref=e417]:
+      - generic [ref=e418]: POS / Reservaciones / Mesa 05
+      - generic [ref=e419]:
+        - generic [ref=e420]:
+          - paragraph [ref=e421]: CONSULTA DE RESERVA
+          - heading "Reserva · Mesa 05" [level=1] [ref=e422]
+          - paragraph [ref=e423]: Consulta de datos ficticios de la reserva
+        - generic [ref=e424]: Consulta DEMO
+      - note [ref=e425]:
+        - generic [aria-hidden] [ref=e426]: ◉
+        - generic [ref=e427]: Consulta DEMO · la reserva no se modifica ni se confirma
+      - generic [ref=e428]:
+        - region "Detalle de reserva DEMO" [ref=e429]:
+          - generic [ref=e430]:
+            - generic [ref=e431]:
+              - paragraph [ref=e432]: RESERVA DEMO
+              - heading "Mesa 05" [level=2] [ref=e433]
+            - generic [ref=e434]: Reservada
+          - generic [ref=e436]:
+            - generic [ref=e437]:
+              - term [ref=e438]: Horario
+              - definition [ref=e439]: 19:30
+            - generic [ref=e440]:
+              - term [ref=e441]: Personas
+              - definition [ref=e442]: "6"
+            - generic [ref=e443]:
+              - term [ref=e444]: Persona invitada
+              - definition [ref=e445]: Mariana Ruiz
+            - generic [ref=e446]:
+              - term [ref=e447]: Estado
+              - definition [ref=e448]: Reservada
+          - paragraph [ref=e449]: Esta vista solo permite consultar la reserva ficticia. No incluye acciones para editar, cancelar o confirmar.
+        - complementary [ref=e450]:
+          - generic [ref=e451]:
+            - strong [ref=e452]: Información de llegada
+            - paragraph [ref=e453]: La Mesa 05 está reservada para 19:30. Los datos son ilustrativos y no generan una operación.
+          - generic [ref=e454]:
+            - link "Regresar al salón" [active] [ref=e455] [cursor=pointer]:
+              - /url: "#pos"
+            - generic [ref=e456]: Consulta DEMO · sin persistencia

@@ -1,0 +1,71 @@
+- main [ref=e2]:
+  - generic [ref=e1263]:
+    - strong [ref=e1264]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e1265]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e1266]:
+      - link "Inicio" [ref=e1267] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e1268] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e1269] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e1270] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e1272]:
+    - generic [ref=e1273]:
+      - link "Ir al inicio de Web Total POS" [ref=e1274] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e1276]: WebTotal POS
+      - generic [ref=e1277]: Entorno demostrativo
+    - region "Todo tu restaurante conectado, todo bajo control." [ref=e1279]:
+      - generic [ref=e1280]:
+        - paragraph [ref=e1281]: CENTRO DE OPERACIONES
+        - heading "Todo tu restaurante conectado, todo bajo control." [level=1] [ref=e1282]
+        - paragraph [ref=e1283]: Una sola plataforma para coordinar el salón, la cocina y la administración de tu restaurante.
+        - paragraph [ref=e1284]: ↓ Selecciona una experiencia para explorar el prototipo.
+    - region "Tres vistas. Una operación." [ref=e1285]:
+      - generic [ref=e1286]:
+        - generic [ref=e1287]:
+          - paragraph [ref=e1288]: ELIGE TU ESPACIO
+          - heading "Tres vistas. Una operación." [level=2] [ref=e1289]
+        - generic [ref=e1290]: 03 EXPERIENCIAS
+      - generic [ref=e1291]:
+        - link "01 POS Opera tu salón Administra mesas, comandas y cuentas desde una experiencia táctil y ágil. Mesas · Pedidos · Cobro" [ref=e1292] [cursor=pointer]:
+          - /url: "#pos"
+          - generic [ref=e1293]:
+            - generic [ref=e1294]: "01"
+            - generic [aria-hidden] [ref=e1295]: ⌁
+          - generic [ref=e1296]:
+            - paragraph [ref=e1297]: POS
+            - heading "Opera tu salón" [level=3] [ref=e1298]
+            - paragraph [ref=e1299]: Administra mesas, comandas y cuentas desde una experiencia táctil y ágil.
+          - generic [ref=e1300]:
+            - generic [ref=e1301]: Mesas · Pedidos · Cobro
+            - generic [aria-hidden] [ref=e1302]: ↗
+        - link "02 KDS Coordina tu cocina Mantén las comandas visibles, priorizadas y listas para entregar. Comandas · Preparando · Listo" [ref=e1303] [cursor=pointer]:
+          - /url: "#kds"
+          - generic [ref=e1304]:
+            - generic [ref=e1305]: "02"
+            - generic [aria-hidden] [ref=e1306]: ▦
+          - generic [ref=e1307]:
+            - paragraph [ref=e1308]: KDS
+            - heading "Coordina tu cocina" [level=3] [ref=e1309]
+            - paragraph [ref=e1310]: Mantén las comandas visibles, priorizadas y listas para entregar.
+          - generic [ref=e1311]:
+            - generic [ref=e1312]: Comandas · Preparando · Listo
+            - generic [aria-hidden] [ref=e1313]: ↗
+        - link "03 ERP Controla tu negocio Consulta ventas, inventario y operación para tomar mejores decisiones. Ventas · Inventario · Reportes" [ref=e1314] [cursor=pointer]:
+          - /url: "#erp"
+          - generic [ref=e1315]:
+            - generic [ref=e1316]: "03"
+            - generic [aria-hidden] [ref=e1317]: ▥
+          - generic [ref=e1318]:
+            - paragraph [ref=e1319]: ERP
+            - heading "Controla tu negocio" [level=3] [ref=e1320]
+            - paragraph [ref=e1321]: Consulta ventas, inventario y operación para tomar mejores decisiones.
+          - generic [ref=e1322]:
+            - generic [ref=e1323]: Ventas · Inventario · Reportes
+            - generic [aria-hidden] [ref=e1324]: ↗
+    - generic [ref=e1325]:
+      - generic [ref=e1326]: Web Total POS
+      - generic [ref=e1327]: Datos ficticios · Sin operaciones reales

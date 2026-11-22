@@ -1,0 +1,20 @@
+- main [ref=e2]:
+  - generic [ref=e830]:
+    - strong [ref=e831]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e832]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e833]:
+      - link "Inicio" [ref=e834] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e835] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e836] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e837] [cursor=pointer]:
+        - /url: "#kds"
+  - main [ref=e839]:
+    - generic [aria-hidden] [ref=e840]: "?"
+    - paragraph [ref=e841]: RUTA DEMO
+    - heading "Mesa no encontrada" [level=1] [ref=e842]
+    - paragraph [ref=e843]: No existe una mesa con el identificador 99. Regresa al salón para continuar.
+    - link "Volver al salón" [ref=e844] [cursor=pointer]:
+      - /url: "#pos"

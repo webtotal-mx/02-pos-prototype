@@ -1,0 +1,52 @@
+- main [ref=e2]:
+  - generic [ref=e280]:
+    - strong [ref=e281]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e282]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e283]:
+      - link "Inicio" [ref=e284] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e285] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e286] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e287] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e288]:
+    - generic [ref=e289]:
+      - link "Ir al inicio de Web Total POS" [ref=e290] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e292]: WebTotal POS
+      - generic [ref=e293]:
+        - heading "DETALLE DE COMANDA" [level=1] [ref=e294]
+        - paragraph [ref=e295]: Cocina caliente · Datos DEMO
+      - generic [ref=e296]: 14:25
+    - main [ref=e297]:
+      - link "← Regresar a comandas" [ref=e298] [cursor=pointer]:
+        - /url: "#kds"
+      - generic [ref=e299]:
+        - generic [ref=e300]:
+          - paragraph [ref=e301]: COMANDA DEMO
+          - 'heading "Comanda #4590 · Mesa 07" [level=1] [ref=e302]'
+          - paragraph [ref=e303]: Recibida a las 14:20 · Antigüedad 5 min
+        - generic [ref=e304]: Nuevos
+      - generic [ref=e305]:
+        - generic [ref=e306]:
+          - heading "Productos" [level=2] [ref=e307]
+          - list [ref=e308]:
+            - listitem [ref=e309]:
+              - strong [ref=e310]: 2 ×
+              - text: Hamburguesa clásica
+            - listitem [ref=e311]:
+              - strong [ref=e312]: 1 ×
+              - text: Papas a la francesa
+          - paragraph [ref=e313]:
+            - strong [ref=e314]: "Notas:"
+            - text: Sin cebolla.
+        - complementary [ref=e315]:
+          - generic [ref=e316]:
+            - paragraph [ref=e317]: ⚠ ALERGIA / RESTRICCIÓN
+            - strong [ref=e318]: Sin cacahuate. Cliente con alergia confirmada.
+            - generic [ref=e319]: Confirmación obligatoria antes de avanzar.
+          - button "Iniciar preparación" [ref=e320] [cursor=pointer]
+          - paragraph [ref=e321]: Acción DEMO · no envía cambios a producción.
+    - status

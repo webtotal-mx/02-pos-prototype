@@ -1,0 +1,121 @@
+- main [ref=e2]:
+  - generic [ref=e990]:
+    - strong [ref=e991]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e992]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e993]:
+      - link "Inicio" [ref=e994] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e995] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e996] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e997] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e998]:
+    - generic [ref=e999]:
+      - link "Ir al inicio de Web Total POS" [ref=e1000] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e1002]: WebTotal POS
+      - generic [ref=e1003]:
+        - heading "COMANDAS · COCINA CENTRAL" [level=1] [ref=e1004]
+        - paragraph [ref=e1005]: "Servicio comida · Estación: Cocina caliente"
+      - button "▣ VISTA TV" [ref=e1006] [cursor=pointer]
+      - generic [ref=e1007]: 14:25
+    - main [ref=e1008]:
+      - generic [ref=e1009]:
+        - generic [ref=e1010]: DATOS DEMO
+        - generic [ref=e1011]: ⚠ Sin conexión operativa · cambios solo locales
+        - button "Simular conexión" [ref=e1012] [cursor=pointer]
+      - generic [ref=e1013]:
+        - region "NUEVOS · 1" [ref=e1014]:
+          - heading "NUEVOS · 1" [level=2] [ref=e1015]
+          - article [ref=e1016]:
+            - generic [ref=e1017]:
+              - strong [ref=e1018]: "#4592"
+              - generic [ref=e1019]: 2 min
+            - heading "Mesa 12" [level=3] [ref=e1020]
+            - list [ref=e1021]:
+              - listitem [ref=e1022]:
+                - strong [ref=e1023]: 3 ×
+                - text: Tacos al pastor
+              - listitem [ref=e1024]:
+                - strong [ref=e1025]: 1 ×
+                - text: Arroz
+            - paragraph [ref=e1026]: Salsa aparte.
+            - generic [ref=e1027]:
+              - link "Ver detalle" [ref=e1028] [cursor=pointer]:
+                - /url: "#kds-order-4592"
+              - button "Iniciar preparación" [ref=e1029] [cursor=pointer]
+        - region "EN PREPARACIÓN · 2" [ref=e1030]:
+          - heading "EN PREPARACIÓN · 2" [level=2] [ref=e1031]
+          - article [ref=e1032]:
+            - generic [ref=e1033]:
+              - strong [ref=e1034]: "#4589"
+              - generic [ref=e1035]: 12 min
+            - heading "Mesa 03" [level=3] [ref=e1036]
+            - list [ref=e1037]:
+              - listitem [ref=e1038]:
+                - strong [ref=e1039]: 2 ×
+                - text: Pasta Alfredo
+              - listitem [ref=e1040]:
+                - strong [ref=e1041]: 1 ×
+                - text: Ensalada César
+            - paragraph [ref=e1042]: Sin notas adicionales.
+            - generic [ref=e1043]:
+              - link "Ver detalle" [ref=e1044] [cursor=pointer]:
+                - /url: "#kds-order-4589"
+              - button "Marcar como listo" [ref=e1045] [cursor=pointer]
+          - article [ref=e1046]:
+            - generic [ref=e1047]:
+              - strong [ref=e1048]: "#4591"
+              - generic [ref=e1049]: 9 min
+            - heading "Mesa 04" [level=3] [ref=e1050]
+            - list [ref=e1051]:
+              - listitem [ref=e1052]:
+                - strong [ref=e1053]: 1 ×
+                - text: Pechuga a la plancha
+              - listitem [ref=e1054]:
+                - strong [ref=e1055]: 2 ×
+                - text: Arroz blanco
+            - paragraph [ref=e1056]: Sin gluten · confirmar.
+            - generic [ref=e1057]:
+              - link "Ver detalle" [ref=e1058] [cursor=pointer]:
+                - /url: "#kds-order-4591"
+              - button "Marcar como listo" [ref=e1059] [cursor=pointer]
+        - region "LISTOS · 2" [ref=e1060]:
+          - heading "LISTOS · 2" [level=2] [ref=e1061]
+          - article [ref=e1062]:
+            - generic [ref=e1063]:
+              - strong [ref=e1064]: "#4588"
+              - generic [ref=e1065]: 18 min
+            - heading "Mesa 02" [level=3] [ref=e1066]
+            - list [ref=e1067]:
+              - listitem [ref=e1068]:
+                - strong [ref=e1069]: 1 ×
+                - text: Pizza mediana
+              - listitem [ref=e1070]:
+                - strong [ref=e1071]: 2 ×
+                - text: Limonada
+            - paragraph [ref=e1072]: Pedido completo.
+            - generic [ref=e1073]:
+              - link "Ver detalle" [ref=e1074] [cursor=pointer]:
+                - /url: "#kds-order-4588"
+              - button "Entregar pedido" [ref=e1075] [cursor=pointer]
+          - article [ref=e1076]:
+            - generic [ref=e1077]:
+              - strong [ref=e1078]: "#4587"
+              - generic [ref=e1079]: 21 min
+            - heading "Mesa 05" [level=3] [ref=e1080]
+            - list [ref=e1081]:
+              - listitem [ref=e1082]:
+                - strong [ref=e1083]: 2 ×
+                - text: Hamburguesa
+              - listitem [ref=e1084]:
+                - strong [ref=e1085]: 1 ×
+                - text: Papas
+            - paragraph [ref=e1086]: Pedido completo.
+            - generic [ref=e1087]:
+              - link "Ver detalle" [ref=e1088] [cursor=pointer]:
+                - /url: "#kds-order-4587"
+              - button "Entregar pedido" [ref=e1089] [cursor=pointer]
+    - status: Desconexión simulada · datos DEMO conservados

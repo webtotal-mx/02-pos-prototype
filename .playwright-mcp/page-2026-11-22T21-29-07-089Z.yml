@@ -1,0 +1,91 @@
+- main [ref=e2]:
+  - generic [ref=e617]:
+    - strong [ref=e618]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e619]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e620]:
+      - link "Inicio" [ref=e621] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e622] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e623] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e624] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e625]:
+    - generic [ref=e626]:
+      - link "Regresar al salón" [ref=e627] [cursor=pointer]:
+        - /url: "#pos"
+        - text: ←
+        - generic [ref=e628]: Salón
+      - link "Ir al inicio de Web Total POS" [ref=e629] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e631]: WebTotal POS
+      - generic [ref=e632]:
+        - strong [ref=e633]: Salón principal · Mesa 06
+        - generic [ref=e634]: Turno actual · 14:25
+      - button "Usuario Ana López" [ref=e635] [cursor=pointer]: AL
+    - main "Gestionar mesa 06" [ref=e636]:
+      - generic [ref=e637]: POS / Gestionar cuenta / Mesa 06
+      - generic [ref=e638]:
+        - generic [ref=e639]:
+          - paragraph [ref=e640]: GESTIONAR CUENTA
+          - heading "Gestionar mesa 06" [level=1] [ref=e641]
+          - paragraph [ref=e642]: CMD-DEMO-006 · 4 personas · DEMO
+        - generic [ref=e643]: Cuenta DEMO
+      - note [ref=e644]:
+        - generic [aria-hidden] [ref=e645]: ◉
+        - generic [ref=e646]: Todas las acciones de cuenta son ilustrativas y solicitan confirmación
+      - generic [ref=e647]:
+        - generic [ref=e648]:
+          - heading "Acciones de cuenta" [level=2] [ref=e649]
+          - generic [ref=e650]:
+            - button "Transferir mesa Cambiar responsable o mesa" [ref=e651] [cursor=pointer]:
+              - generic [ref=e652]:
+                - generic [ref=e653]: Transferir mesa
+                - generic [ref=e654]: Cambiar responsable o mesa
+              - strong [aria-hidden] [ref=e655]: ›
+            - button "Dividir cuenta Separar consumos" [ref=e656] [cursor=pointer]:
+              - generic [ref=e657]:
+                - generic [ref=e658]: Dividir cuenta
+                - generic [ref=e659]: Separar consumos
+              - strong [aria-hidden] [ref=e660]: ›
+            - button "Combinar mesas Unificar cuentas" [ref=e661] [cursor=pointer]:
+              - generic [ref=e662]:
+                - generic [ref=e663]: Combinar mesas
+                - generic [ref=e664]: Unificar cuentas
+              - strong [aria-hidden] [ref=e665]: ›
+          - generic [ref=e666]:
+            - strong [ref=e667]: Permiso configurable requerido
+            - generic [ref=e668]: Este prototipo no cambia responsables ni cuentas.
+        - complementary [ref=e669]:
+          - region "Resumen de comanda" [ref=e670]:
+            - generic [ref=e671]:
+              - generic [ref=e672]:
+                - paragraph [ref=e673]: COMANDA DEMO
+                - heading "CMD-DEMO-006" [level=2] [ref=e674]
+              - generic [ref=e675]: Apertura ilustrativa
+            - paragraph [ref=e676]: "4 personas · Responsable: Ana López"
+            - generic [ref=e677]:
+              - generic [ref=e678]:
+                - generic [ref=e679]:
+                  - generic [ref=e680]: 1 × Hamburguesa clásica
+                  - generic [ref=e681]: Apertura ilustrativa · papas aparte
+                - strong [ref=e682]: $190.00
+              - generic [ref=e683]:
+                - generic [ref=e684]:
+                  - generic [ref=e685]: 2 × Limonada
+                  - generic [ref=e686]: Sin hielo
+                - strong [ref=e687]: $90.00
+            - generic [ref=e688]:
+              - generic [ref=e689]: Total ficticio
+              - strong [ref=e690]: $280.00
+          - generic [ref=e691]:
+            - strong [ref=e692]: Nota de continuidad
+            - paragraph [ref=e693]: Cliente solicita atención en terraza.
+      - generic [ref=e694]:
+        - link "← Regresar a Mesa 06" [ref=e695] [cursor=pointer]:
+          - /url: "#pos-table-06"
+        - link "Cerrar comanda" [ref=e696] [cursor=pointer]:
+          - /url: "#pos-close-06"
+          - text: Cerrar comanda →
+    - status

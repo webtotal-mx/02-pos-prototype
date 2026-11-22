@@ -1,0 +1,91 @@
+- main [ref=e2]:
+  - generic [ref=e1177]:
+    - strong [ref=e1178]: PROTOTIPO · DATOS DEMO
+    - generic [ref=e1179]: Explora las vistas de Web Total POS
+    - navigation "Cambiar producto" [ref=e1180]:
+      - link "Inicio" [ref=e1181] [cursor=pointer]:
+        - /url: "#home"
+      - link "ERP" [ref=e1182] [cursor=pointer]:
+        - /url: "#erp"
+      - link "POS" [ref=e1183] [cursor=pointer]:
+        - /url: "#pos"
+      - link "KDS" [ref=e1184] [cursor=pointer]:
+        - /url: "#kds"
+  - generic [ref=e1185]:
+    - generic [ref=e1186]:
+      - link "Ir al inicio de Web Total POS" [ref=e1187] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e1189]: WebTotal POS
+      - generic [ref=e1190]:
+        - heading "COMANDAS · COCINA CENTRAL" [level=1] [ref=e1191]
+        - paragraph [ref=e1192]: "Servicio comida · Estación: Cocina caliente"
+      - button "▣ VISTA TV" [ref=e1193] [cursor=pointer]
+      - button "2 EXCEPCIONES" [ref=e1194] [cursor=pointer]
+      - generic [ref=e1195]: 14:25
+    - generic [ref=e1196]:
+      - generic [ref=e1197]:
+        - heading "NUEVOS · 3" [level=2] [ref=e1198]
+        - article [ref=e1199]:
+          - generic [ref=e1200]:
+            - strong [ref=e1201]: "#4590"
+            - generic [ref=e1202]: 5 min
+          - heading "Mesa 07" [level=3] [ref=e1203]
+          - list [ref=e1204]:
+            - listitem [ref=e1205]: 2 × Hamburguesa clásica
+            - listitem [ref=e1206]: 1 × Papas a la francesa
+            - listitem [ref=e1207]: ¡SIN CEBOLLA!
+          - button "Iniciar preparación" [ref=e1208] [cursor=pointer]
+        - article [ref=e1209]:
+          - generic [ref=e1210]:
+            - strong [ref=e1211]: "#4592"
+            - generic [ref=e1212]: 2 min
+          - heading "Mesa 12" [level=3] [ref=e1213]
+          - list [ref=e1214]:
+            - listitem [ref=e1215]: 3 × Tacos al pastor
+            - listitem [ref=e1216]: 1 × Arroz
+            - listitem [ref=e1217]: "Nota: salsa aparte"
+          - button "Iniciar preparación" [ref=e1218] [cursor=pointer]
+      - generic [ref=e1219]:
+        - heading "EN PREPARACIÓN · 2" [level=2] [ref=e1220]
+        - article [ref=e1221]:
+          - generic [ref=e1222]:
+            - strong [ref=e1223]: "#4589"
+            - generic [ref=e1224]: 12 min
+          - heading "Mesa 03" [level=3] [ref=e1225]
+          - list [ref=e1226]:
+            - listitem [ref=e1227]: 2 × Pasta Alfredo
+            - listitem [ref=e1228]: 1 × Ensalada César
+            - listitem [ref=e1229]: 1 × Agua natural
+          - button "Marcar listo" [ref=e1230] [cursor=pointer]
+        - article [ref=e1231]:
+          - generic [ref=e1232]:
+            - strong [ref=e1233]: "#4591"
+            - generic [ref=e1234]: 9 min
+          - heading "Mesa 04" [level=3] [ref=e1235]
+          - list [ref=e1236]:
+            - listitem [ref=e1237]: 1 × Pechuga a la plancha
+            - listitem [ref=e1238]: 2 × Arroz blanco
+            - listitem [ref=e1239]: SIN GLUTEN – confirmar
+          - button "Marcar listo" [ref=e1240] [cursor=pointer]
+      - generic [ref=e1241]:
+        - heading "LISTOS · 2" [level=2] [ref=e1242]
+        - article [ref=e1243]:
+          - generic [ref=e1244]:
+            - strong [ref=e1245]: "#4588"
+            - generic [ref=e1246]: 18 min
+          - heading "Mesa 02" [level=3] [ref=e1247]
+          - list [ref=e1248]:
+            - listitem [ref=e1249]: 1 × Pizza mediana
+            - listitem [ref=e1250]: 2 × Limonada
+            - listitem [ref=e1251]: Pedido completo
+          - button "Entregar" [ref=e1252] [cursor=pointer]
+        - article [ref=e1253]:
+          - generic [ref=e1254]:
+            - strong [ref=e1255]: "#4587"
+            - generic [ref=e1256]: 21 min
+          - heading "Mesa 05" [level=3] [ref=e1257]
+          - list [ref=e1258]:
+            - listitem [ref=e1259]: 2 × Hamburguesa
+            - listitem [ref=e1260]: 1 × Papas
+            - listitem [ref=e1261]: Pedido completo
+          - button "Entregar" [ref=e1262] [cursor=pointer]
